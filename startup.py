@@ -3,7 +3,7 @@
 # @Author  : Leo Zhang
 # @File    : startup.py
 # ***********************
-import os
+# import os
 import sys
 import pytest
 import logging

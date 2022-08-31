@@ -1,0 +1,12 @@
+DEBUG    root:initializePremise.py:55 测试信息处理结果：{'title': 'register', 'host': '127.0.0.1:20037', 'scheme': 'http', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}
+INFO     root:initializePremise.py:65 获取前置接口测试用例：/register/test_getAdultCurbactList.yaml
+DEBUG    root:initializePremise.py:78 测试信息处理结果：{'title': 'register', 'host': '127.0.0.1:20037', 'scheme': 'http', 'method': 'POST', 'address': '/api/register/getAdultCurbactList', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+DEBUG    root:initializePremise.py:87 请求参数处理结果：{'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': 'xu5YwIZFkVGczMn0H0rot2ps7zRIbvrTHNwMXx1sJXg='}
+INFO     root:initializePremise.py:88 执行前置接口测试用例：{'title': 'register', 'host': '127.0.0.1:20037', 'scheme': 'http', 'method': 'POST', 'address': '/api/register/getAdultCurbactList', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+INFO     root:apiSend.py:37 ======================================================================================================================================================
+INFO     root:apiSend.py:38 请求接口：getAdultCurbactList
+INFO     root:apiSend.py:39 请求地址：http://127.0.0.1:20037/api/register/getAdultCurbactList
+INFO     root:apiSend.py:40 请求头: {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO     root:apiSend.py:41 请求参数: {'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': 'xu5YwIZFkVGczMn0H0rot2ps7zRIbvrTHNwMXx1sJXg='}
+INFO     root:apiSend.py:58 请求方法: POST
+DEBUG    urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): 127.0.0.1:20037

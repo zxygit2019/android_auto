@@ -1,0 +1,13 @@
+2022-11-27 20:33:28,052 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2022-11-27 20:33:28,547 - initializePremise.py - DEBUG: 测试信息处理结果：{'title': 'register', 'host': '127.0.0.1:20037', 'scheme': 'http', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}
+2022-11-27 20:33:28,547 - initializePremise.py - INFO: 获取前置接口测试用例：/register/test_getAdultCurbactList.yaml
+2022-11-27 20:33:28,550 - initializePremise.py - DEBUG: 测试信息处理结果：{'title': 'register', 'host': '127.0.0.1:20037', 'scheme': 'http', 'method': 'POST', 'address': '/api/register/getAdultCurbactList', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+2022-11-27 20:33:28,550 - initializePremise.py - DEBUG: 请求参数处理结果：{'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': 'xu5YwIZFkVGczMn0H0rot2ps7zRIbvrTHNwMXx1sJXg='}
+2022-11-27 20:33:28,550 - initializePremise.py - INFO: 执行前置接口测试用例：{'title': 'register', 'host': '127.0.0.1:20037', 'scheme': 'http', 'method': 'POST', 'address': '/api/register/getAdultCurbactList', 'mime_type': 'application/x-www-form-urlencoded', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'timeout': 10, 'file': False, 'cookies': False, 'premise': False}
+2022-11-27 20:33:28,550 - apiSend.py - INFO: ======================================================================================================================================================
+2022-11-27 20:33:28,550 - apiSend.py - INFO: 请求接口：getAdultCurbactList
+2022-11-27 20:33:28,550 - apiSend.py - INFO: 请求地址：http://127.0.0.1:20037/api/register/getAdultCurbactList
+2022-11-27 20:33:28,551 - apiSend.py - INFO: 请求头: {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+2022-11-27 20:33:28,551 - apiSend.py - INFO: 请求参数: {'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}, 'headtoken': 'xu5YwIZFkVGczMn0H0rot2ps7zRIbvrTHNwMXx1sJXg='}
+2022-11-27 20:33:28,551 - apiSend.py - INFO: 请求方法: POST
+2022-11-27 20:33:28,554 - connectionpool.py - DEBUG: Starting new HTTP connection (1): 127.0.0.1:20037

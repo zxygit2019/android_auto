@@ -8,7 +8,7 @@ import os
 
 # 获取主目录路径
 ROOT_DIR = str(os.path.realpath(__file__)).split('config')[0].replace('\\', '/')
-
+print(ROOT_DIR)
 # 获取配置文件路径
 API_CONFIG = ROOT_DIR+'config/apiConfig.yml'
 RUN_CONFIG = ROOT_DIR+'config/runConfig.yml'
